@@ -1,6 +1,6 @@
 {
   "name": "@hritik123/promptc",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CLI tool for turning raw developer prompts into structured AI instructions",
   "main": "./dist/cli/index.js",
   "publishConfig": {

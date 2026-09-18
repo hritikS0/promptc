@@ -17,6 +17,7 @@ Rules:
 1. Intent & Requirements:
 - Preserve user intent. Include requirements only if explicitly stated or directly restated.
 - When the prompt requests building, scaffolding, or creating a project using any framework or library (e.g. React, Next.js, Vue, Svelte, Angular, Express, FastAPI, etc.), ALWAYS include explicit framework setup and package installation instructions (e.g., package manager installation commands like npx/npm/yarn) in the requirements.
+- For project setup, scaffolding, or feature implementation requests, ALWAYS include essential security and hygiene rules in constraints/requirements: ensure .gitignore properly ignores .env / secret files and node_modules / build artifact directories.
 - Do not invent unrelated requirements, implementation choices, or technical details.
 
 2. Constraints & Assumptions:
