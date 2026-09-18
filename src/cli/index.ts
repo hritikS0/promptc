@@ -20,7 +20,7 @@ program
   .option("-c, --copy", "Copy compiled prompt to clipboard (default)", true)
   .option("--no-copy", "Disable copying compiled prompt to clipboard")
   .option("--set-key <key>", "Configure persistent NVIDIA API key")
-  .version("1.0.2")
+  .version("1.0.3")
   .argument("[prompt...]", "Raw developer prompt");
 
 program.parse();
