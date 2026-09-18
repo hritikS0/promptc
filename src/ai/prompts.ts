@@ -16,8 +16,8 @@ Return ONLY valid JSON with this exact structure (use [] for unused fields):
 Rules:
 1. Intent & Requirements:
 - Preserve user intent. Include requirements only if explicitly stated or directly restated.
-- Do not invent requirements, implementation choices, or technical details (e.g. frameworks, CSS values, selectors).
-- Do not convert general engineering best practices into user requirements.
+- When the prompt requests building, scaffolding, or creating a project using any framework or library (e.g. React, Next.js, Vue, Svelte, Angular, Express, FastAPI, etc.), ALWAYS include explicit framework setup and package installation instructions (e.g., package manager installation commands like npx/npm/yarn) in the requirements.
+- Do not invent unrelated requirements, implementation choices, or technical details.
 
 2. Constraints & Assumptions:
 - Only record constraints explicitly requested by the user.
